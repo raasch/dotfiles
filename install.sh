@@ -2,7 +2,7 @@
 
 dir=~/dotfiles          # source directory of dot files
 olddir=~/dotfiles_old   # backup directory for old dotfiles
-files=".vimrc"           # list of dotfiles
+files=".vimrc"          # list of dotfiles
 
 echo "creating $olddir for backup of existing dotfiles in ~"
 mkdir -p $olddir

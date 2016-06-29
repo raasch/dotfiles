@@ -42,3 +42,5 @@ set cursorline
 " enable automatic indentation for plugins
 filetype plugin indent on
 
+" set maxima file type
+au BufRead,BufNewFile *.maxima set filetype=maxima

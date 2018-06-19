@@ -42,3 +42,5 @@ set cursorline
 " enable automatic indentation for plugins
 filetype plugin indent on
 
+au VimLeave * printf '\e[0m'
+ 
